@@ -3,7 +3,7 @@ console.log('kaha maiiiiiiiiii');
 const API_KEY="e26bcbf6f2b96d86d82e7d975c85c4ec";
 
 async function showWeather(){
-    let city="bikini";
+    let city="goa";
 
     const response= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
 
