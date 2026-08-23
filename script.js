@@ -4,6 +4,8 @@ const API_KEY="e26bcbf6f2b96d86d82e7d975c85c4ec";
 
 
 
+
+
 async function showWeather(){
     let city="goa";
 
