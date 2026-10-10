@@ -14,6 +14,8 @@ async function showWeather(){
 
     let newPara=document.createElement('p');
     newPara.textContent=`${data?.main?.temp.toFixed(2)} degree Celcius` 
+
+    
     document.body.appendChild(newPara);  
 }
 
